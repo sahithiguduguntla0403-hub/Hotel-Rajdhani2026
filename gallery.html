@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | Hotel Rajdhani</title>
+
+    <meta name="description" content="Explore Hotel Rajdhani through our gallery featuring luxury rooms, restaurant, swimming pool and hotel interiors.">
+
+    <meta name="keywords" content="Hotel Rajdhani gallery, luxury hotel, rooms, restaurant, swimming pool">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="container header-inner">
+
+        <a href="index.html" class="logo">Hotel Rajdhani</a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle Navigation">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="destinations.html">Rooms</a>
+            <a href="packages.html">Facilities</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="booking.html">Booking</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </div>
+
+</header>
+
+<main>
+
+<section class="page-banner">
+
+    <div class="container">
+
+        <h1>Hotel Gallery</h1>
+
+        <p>
+            Discover the elegance and comfort of Hotel Rajdhani through our gallery.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="container section">
+
+    <h2>Our Gallery</h2>
+
+    <div class="filter-buttons">
+
+        <button class="btn small" onclick="filterGallery('all')">All</button>
+
+        <button class="btn small" onclick="filterGallery('rooms')">Rooms</button>
+
+        <button class="btn small" onclick="filterGallery('restaurant')">Restaurant</button>
+
+        <button class="btn small" onclick="filterGallery('pool')">Swimming Pool</button>
+
+    </div>
+
+    <div class="gallery-grid">
+
+        <img class="gallery-item rooms"
+             src="images/deluxe-room.jpg"
+             alt="Deluxe Room">
+
+        <img class="gallery-item rooms"
+             src="images/executive-room.jpg"
+             alt="Executive Room">
+
+        <img class="gallery-item rooms"
+             src="images/family-room.jpg"
+             alt="Family Room">
+
+        <img class="gallery-item rooms"
+             src="images/suite-room.jpg"
+             alt="Suite Room">
+
+        <img class="gallery-item restaurant"
+             src="images/restaurant.jpg"
+             alt="Hotel Restaurant">
+
+        <img class="gallery-item pool"
+             src="images/swimming-pool.jpg"
+             alt="Swimming Pool">
+
+    </div>
+
+</section>
+
+</main>
+
+<footer class="site-footer">
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <h3>Hotel Rajdhani</h3>
+
+            <p>
+                Experience luxury accommodation, fine dining, premium facilities,
+                and exceptional hospitality at Hotel Rajdhani.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Quick Links</h3>
+
+            <p>
+                <a href="about.html">About</a> |
+                <a href="destinations.html">Rooms</a> |
+                <a href="packages.html">Facilities</a> |
+                <a href="booking.html">Book Now</a>
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Contact</h3>
+
+            <p>
+                Email: info@rajdhanihotel.com<br>
+                Phone: +91-9876543210<br>
+                Visakhapatnam, Andhra Pradesh
+            </p>
+
+        </div>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Hotel Rajdhani. All Rights Reserved.
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Facilities | Hotel Rajdhani</title>
+
+    <meta name="description" content="Explore the premium facilities at Hotel Rajdhani including restaurant, swimming pool, conference hall, parking and room service.">
+
+    <meta name="keywords" content="Hotel Rajdhani, hotel facilities, restaurant, swimming pool, free Wi-Fi, parking">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="container header-inner">
+
+        <a href="index.html" class="logo">Hotel Rajdhani</a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle Navigation">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="destinations.html">Rooms</a>
+            <a href="packages.html">Facilities</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="booking.html">Booking</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </div>
+
+</header>
+
+<main>
+
+<section class="page-banner">
+
+    <div class="container">
+
+        <h1>Our Premium Facilities</h1>
+
+        <p>
+            Enjoy world-class amenities designed to make your stay comfortable and memorable.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="container section">
+
+    <h2>Hotel Facilities</h2>
+
+    <div class="cards">
+
+        <article class="card">
+            <h3>🍽 Multi-Cuisine Restaurant</h3>
+            <p>
+                Enjoy delicious Indian, Chinese and Continental dishes prepared by experienced chefs.
+            </p>
+        </article>
+
+        <article class="card">
+            <h3>🏊 Swimming Pool</h3>
+            <p>
+                Relax and refresh yourself in our clean and beautifully maintained swimming pool.
+            </p>
+        </article>
+
+        <article class="card">
+            <h3>📶 Free Wi-Fi</h3>
+            <p>
+                High-speed internet access is available throughout the hotel for all guests.
+            </p>
+        </article>
+
+        <article class="card">
+            <h3>🚗 Free Parking</h3>
+            <p>
+                Spacious and secure parking facility is available for all hotel guests.
+            </p>
+        </article>
+
+        <article class="card">
+            <h3>🛎 24/7 Room Service</h3>
+            <p>
+                Our professional staff is available around the clock to assist you.
+            </p>
+        </article>
+
+        <article class="card">
+            <h3>💼 Conference Hall</h3>
+            <p>
+                Modern conference hall suitable for meetings, seminars and corporate events.
+            </p>
+        </article>
+
+    </div>
+
+</section>
+
+<section class="container section calculator-box">
+
+    <h2>Room Price Calculator</h2>
+
+    <label for="packageSelect">Select Room Type</label>
+
+    <select id="packageSelect">
+
+        <option value="2500">Deluxe Room - ₹2,500 / Night</option>
+
+        <option value="4000">Executive Room - ₹4,000 / Night</option>
+
+        <option value="5500">Family Room - ₹5,500 / Night</option>
+
+        <option value="7000">Suite Room - ₹7,000 / Night</option>
+
+    </select>
+
+    <label for="peopleCount">Number of Rooms</label>
+
+    <input
+        type="number"
+        id="peopleCount"
+        min="1"
+        value="1"
+    >
+
+    <button class="btn" onclick="calculateCost()">
+        Calculate Price
+    </button>
+
+    <p id="costResult" class="result"></p>
+
+</section>
+
+</main>
+
+<footer class="site-footer">
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <h3>Hotel Rajdhani</h3>
+
+            <p>
+                Experience luxury accommodation with premium facilities,
+                delicious dining and exceptional hospitality in Visakhapatnam.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Quick Links</h3>
+
+            <p>
+                <a href="about.html">About</a> |
+                <a href="destinations.html">Rooms</a> |
+                <a href="gallery.html">Gallery</a> |
+                <a href="booking.html">Book Now</a>
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Contact</h3>
+
+            <p>
+                Email: info@rajdhanihotel.com<br>
+                Phone: +91-9876543210<br>
+                Visakhapatnam, Andhra Pradesh
+            </p>
+
+        </div>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Hotel Rajdhani. All Rights Reserved.
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
